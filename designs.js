@@ -45,7 +45,7 @@ function makeGrid() {
     });
 };
 
-document.querySelector("#sizePicker").addEventListener("submit", function(event) {
+document.querySelector("#size-picker").addEventListener("submit", function(event) {
     event.preventDefault();
     makeGrid();
 });
